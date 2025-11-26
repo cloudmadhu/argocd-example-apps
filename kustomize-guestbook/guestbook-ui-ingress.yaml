@@ -4,7 +4,7 @@ metadata:
   name: guestbook-ui-ingress
 spec:
   rules:
-  - host: guestbook.traefik.me  # Replace with your desired domain
+  - host: guestbook.traefik.me
     http:
       paths:
       - path: /
